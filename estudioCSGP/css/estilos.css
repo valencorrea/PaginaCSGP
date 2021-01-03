@@ -12,7 +12,7 @@ body{
 }
 
 .main-header{
-	background-color: rgba(150,150,255,0.4);
+	background-color: #390E0E;
 	padding:-left:15px;
 	padding-right: 15px; 
 	padding-top: 10px; 
@@ -105,4 +105,18 @@ body{
 .imagen-de-fondo{
 	background-image: url("/EstudioCSGP/imagenes/imagen_contacto.jpg");
 	background-size: cover;
+}
+
+.titulo-home{
+	margin-top: 0;
+	font-size: 2.6em;
+	color: #212121;
+	text-shadow: 1px 3px 1px #A59592;
+}
+
+.subtitulo-home{
+	margin-top: 0;
+	font-size: 1.2em;
+	color: #2F1B17;
+	text-shadow: 1px 3px 10px #A59592;
 }

@@ -64,7 +64,7 @@ body{
 .body{
 	/*controla los espacios*/
 	/* notacion equivalente a padding-top y bottom 60 y left right 15*/
-	padding: 60px 15px;
+	padding: 20px 15px;
 }
 
 .texto-3d{
@@ -111,12 +111,17 @@ body{
 	text-shadow: 1px 3px 1px #A59592;
 }
 
-.fondo-imagenes{
+.fondo-fotos{
 	border-radius: 4px;
 	background:rgba(57,14,14,1);
-  	padding: 10px;
-  	height: 400px;
- 	width: 160px;
+  	height: 200px;
+ 	width: 200px;
+}
+
+.fondo-especializacion{
+	border-radius: 4px;
+	background:rgba(57,14,14,1);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.32), 0 1px 2px rgba(0,0,0,0.4);
 }
 
 .texto-imagenes{

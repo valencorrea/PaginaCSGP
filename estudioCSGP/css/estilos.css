@@ -58,7 +58,7 @@ body{
 	background:rgba(138,138,138,0.4);
 /*	background-color: transparent;*/
 	/*distancia en x, en y, desenfoque, color*/
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.32), 0 1px 2px rgba(0,0,0,0.4);
 }
 
 .body{
@@ -69,37 +69,6 @@ body{
 
 .texto-3d{
 	text-shadow: 1px 3px 0px #6b251d, 1px 13px 5px rgb(171,168,168);
-}
-
-.delay-1{
-	animation-delay: 0.1s;
-	/*pone las ultimas imagenes por detras*/
-	position: relative;
-	z-index: 5;
-}
-
-.delay-2{
-	animation-delay: 0.2s;	
-	position: relative;
-	z-index: 4;
-}
-
-.delay-3{
-	animation-delay: 0.3s;		
-	position: relative;
-	z-index: 3;
-}
-
-.delay-4{
-	animation-delay: 0.4s;
-	position: relative;
-	z-index: 2;	
-}
-
-.delay-5{
-	animation-delay: 0.5s;
-	position: relative;
-	z-index: 1;
 }
 
 .imagen-de-fondo{
@@ -119,4 +88,38 @@ body{
 	font-size: 1.2em;
 	color: #2F1B17;
 	text-shadow: 1px 3px 10px #A59592;
+}
+
+.encabezado-auxiliar{
+	margin-top: 0;
+	font-size: 1.5em;
+	color: #212121;
+	text-shadow: 1px 3px 1px #A59592;
+}
+
+.subencabezado-auxiliar{
+	margin-top: 0;
+	font-size: 0.9em;
+	color: #2F1B17;
+	text-shadow: 1px 3px 10px #A59592;
+}
+
+.texto-boton{
+	margin-top: 0;
+	font-size: 2.1em;
+	color: #212121;
+	text-shadow: 1px 3px 1px #A59592;
+}
+
+.fondo-imagenes{
+	border-radius: 4px;
+	background:rgba(57,14,14,1);
+  	padding: 10px;
+  	height: 400px;
+ 	width: 160px;
+}
+
+.texto-imagenes{
+	color:rgba(113,80,80,0.3); 
+	text-shadow: 1px 1px 1px white;
 }

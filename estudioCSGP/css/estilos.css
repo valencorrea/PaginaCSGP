@@ -131,3 +131,20 @@ body{
 	color:rgba(113,80,80,0.3); 
 	text-shadow: 1px 1px 1px white;
 }
+
+.barra-superior{
+	color:white; 
+	position: fixed;
+	bottom: 0; 
+	/*saco el subrayado*/
+	text-decoration: none;
+	/*porcentaje que ocupa en la pantalla*/
+	width: 100%; 
+	background-color: #390E0E;
+	display:inline-block;
+    text-align:left;
+    font-size:25px;
+	font-family: 'Abel', sans-serif;
+	/*ancho del header*/
+	padding: 2px;
+}

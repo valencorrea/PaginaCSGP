@@ -11,7 +11,7 @@ body{
 	font-size: 2.5em;
 }
 
-.main-header{
+.titulo-principal{
 	background-color: #390E0E;
 	padding:-left:15px;
 	padding-right: 15px; 
@@ -20,7 +20,7 @@ body{
 	border-radius: 4px;
 }
 
-.nav-link{
+.link-navegacion{
 	color:white; 
 	margin-right: -4px;
 	/*saco el subrayado*/
@@ -30,41 +30,36 @@ body{
 	display:inline-block;
     text-align:center;
     font-size:17px;
-
 }
 
-.text-center{
+.texto-centrado{
 	text-align: center;
 }
 
-.red-text{
-	color: #E74C3C;
-}
 
-.main-container{
+.contenedor-principal{
 	min-height: 100vh;
 }
 
-/*Solo las imagenes dentro de la etiqueta product - NO es buena practica*/
-.product img{ 
+/*Solo las imagenes dentro de la etiqueta items-cuadrados - NO es buena practica*/
+.item-cuadrado img{ 
 	width: 150px;
 }
 
-.product h3{
+.item-cuadrado h3{
 	font-size: 1.7em;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
-.card{
+.tarjeta{
 	border-radius: 8px;
 	background:rgba(138,138,138,0.4);
-/*	background-color: transparent;*/
 	/*distancia en x, en y, desenfoque, color*/
 	box-shadow: 0 1px 3px rgba(0,0,0,0.32), 0 1px 2px rgba(0,0,0,0.4);
 }
 
-.body{
+.cuerpo{
 	/*controla los espacios*/
 	/* notacion equivalente a padding-top y bottom 60 y left right 15*/
 	padding: 20px 10px;
@@ -75,7 +70,7 @@ body{
 }
 
 .imagen-de-fondo{
-	background-image: url("/EstudioCSGP/imagenes/imagen_contacto.jpg");
+	background-image: url("/EstudioCSGP/imagenes/imagen_fondo.jpg");
 	background-size: cover;
 }
 
